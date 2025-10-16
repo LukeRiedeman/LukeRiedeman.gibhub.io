@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>My Personal Website</title>
+  <!-- Favicon for requirement 3-->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+    header { margin-bottom: 1.5rem; }
+    .bordered-table { border-collapse: collapse; }
+    .bordered-table th,
+    .bordered-table td { border: 1px solid #333; padding: 6px 10px; }
+    .no-border-table td { padding: 6px 10px; } /* no borders */
+    img.profile { max-width: 200px; height: auto; display: block; margin-bottom: 0.5rem; }
+    .small { font-size: 0.9rem; color: #555; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Luke Riedeman</h1>
+    <p class="small">This is my website dedicated to Lebron James.</p>
+  </header>
+
+  <!-- Image of yourself and someone else for requirement 3-->
+  <section>
+    <h2>Lebron</h2>
+    <img src="https://tse4.mm.bing.net/th/id/OIP.sOvyBWSIX6YhVGKVRtOIpQHaEK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Photo of Lebron" class="profile">
+  </section>
+
+  <section>
+    <!-- Unordered and ordered lists for requirement 1-->
+    <h2>Lists</h2>
+    <h3>Some Lebron Accolades</h3>
+    <ul>
+      <li>4-time NBA Chapion</li>
+      <li>4-time League MVP</li>
+      <li>All-time Points Leader</li>
+    </ul>
+    <h3>Favorite Basketball Players Ranked</h3>
+    <ol>
+      <li>Lebron James</li>
+      <li>Michael Jordan</li>
+      <li>Stephen Curry</li>
+    </ol>
+  </section>
+
+  <section>
+    <!-- Tables with and without borders for requirement 2-->
+    <h2>Tables</h2>
+    <h3>NBA All-time Points Leaders</h3>
+    <table class="bordered-table" aria-label="Bordered contact table">
+      <thead>
+        <tr><th>Name</th><th>Points</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lebron</td><td>42184</td></tr>
+        <tr><td>Kareem</td><td>38387</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Quick Facts About Lebron</h3>
+    <table class="no-border-table" aria-label="Borderless facts table">
+      <tbody>
+        <tr><td><strong>Hometown:</strong></td><td>Akron: Ohio</td></tr>
+        <tr><td><strong>Age:</strong></td><td>40</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>Links</h2>
+    <!-- Text link for requirement 4-->
+    <p>Lebron James <a href="https://en.wikipedia.org/wiki/LeBron_James" title="My blog">Wikipedia</a>.</p>
+    <!-- Image link for requirement 4 -->
+    <p>
+      <a href="https://www.sportingnews.com/us/nba/los-angeles-lakers/news/lebron-james-goat-stats-accolades-michael-jordan-debate/2c1a89fd8c8505213c44c4dc" title="Go to target page">
+        <img src="https://th.bing.com/th/id/OIP.Y8S6ng01rixsCXM9snuH_AHaEK?w=298&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" alt="Thumbnail link" style="max-width:150px;">
+      </a>
+    </p>
+    <p>
+      <!-- this link opens in a new tab for requirement 4-->
+      <a href="https://www.britannica.com/biography/LeBron-James" target="_blank">Lebron James Biography</a>
+    </p>
+  </section>
+  <!-- One special character and an emoji for requirement 5 -->
+  <section>
+    <h2>Special Character and Emoji</h2>
+    <p>
+      Special Character: &hearts;. Emoji:  😉. 
+    </p>
+  </section>
+</body>
+</html>
